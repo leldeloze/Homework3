@@ -1,0 +1,155 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:#b4aeab;
+ 
+}
+
+
+h1{
+    text-align: center;
+}
+
+#Table {
+    margin-top: 3%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr) ) ;
+    grid-gap: 10px;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+@media (max-width: 576px) {
+    #container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navTable {
+        width: 100%;
+        min-height: 400px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}    
+
+
+.FIZZBUZZ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius:4px;
+    border:1px solid rgb(15, 11, 11);
+
+    transition: all 0.3s linear;
+    background-color: #3a5068;
+}
+
+.FIZZ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+
+    transition: all 0.3s linear;
+    background-color: #d1dbe0;
+}
+
+
+.BUZZ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius:4px;
+    border:1px solid #bbb;
+
+    transition: all 0.3s linear;
+    background-color:#ac8c90;
+}
+
+
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius:4px;
+    border:1px solid #bbb;
+
+    transition: all 0.3s linear;
+    background-color:#686167;
+}
+
+
+.navTable {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #798088;
+    font-size: 1.5em;
+    border-radius: 4px;
+
+}
+  
+  input, button {
+      font-size: 1em;
+      border-radius: 5px;
+      width: 200px;
+      text-align: center;
+  }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    }
+
+
+    
+    #btnReset {
+        background-color: white; 
+        color: black; 
+        border: 5px solid #686167;
+      }
+      
+    #btnRefresh {
+        background-color: white; 
+        color: black; 
+        border: 5px solid #686167;
+      }
+      
+    #btnFizz {
+        background-color: white; 
+        color: black; 
+        border: 5px solid  #d1dbe0;
+      }
+      
+    #btnBuzz {
+        background-color: white;
+        color: black;
+        border: 5px solid #8b6569;
+      }
+      
+    #btnFizzBuzz {
+        background-color: white;
+        color: black;
+        border: 5px solid #3a5068;
+      }
+

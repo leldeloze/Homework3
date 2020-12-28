@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=main">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script defer src="script.js"></script>
+    
+
+<body>
+    <h1 id="h1">FIZZ BUZZ</h1>
+        <div class="navTable">
+        <label>MIN number: </label><input type="number" name="field" id="minInput" min="1" max="99"
+            onpaste="return false">
+        <label>MAX number: </label><input type="number" name="field" id="maxInput" min="2" max="100"
+            onpaste="return false">
+        <button id="btnReset">RESET</button>
+        <button id="btnRefresh">REFRESH</button>
+        <button id="btnThree">FIZZ</button>
+        <button id="btnFour">BUZZ</button>
+        <button id="btnFive">FIZZBUZZ</button>
+    </div>
+    <div id="Table">
+        <div id="div_1" class="num">
+            <p>1</p>
+        </div>
+        <div id="div_2" class="num">
+            <p>2</p>
+        </div>
+        <div id="div_3" class="FIZZ">
+            <p>3=FIZZ</p>
+        </div>
+        <div id="div_4" class="num">
+            <p>4</p>
+        </div>
+        <div id="div_5" class="BUZZ">
+            <p>5=BUZZ</p>
+        </div>
+        <div id="div_6" class="FIZZ">
+            <p>6=FIZZ</p>
+        </div>
+        <div id="div_7" class="num">
+            <p>7</p>
+        </div>
+        <div id="div_8" class="num">
+            <p>8</p>
+        </div>
+        <div id="div_9" class="FIZZ">
+            <p>9=FIZZ</p>
+        </div>
+        <div id="div_10" class="BUZZ">
+            <p>10=BUZZ</p>
+        </div>
+        <div id="div_11" class="num">
+            <p>11</p>
+        </div>
+        <div id="div_12" class="FIZZ">
+            <p>12=FIZZ</p>
+        </div>
+        <div id="div_13" class="num">
+            <p>13</p>
+        </div>
+        <div id="div_14" class="num">
+            <p>14</p>
+        </div>
+        <div id="div_15" class="FIZZBUZZ">
+            <p>15=FIZZBUZZ</p>
+        </div>
+        <div id="div_16" class="num">
+            <p>16</p>
+        </div>
+        <div id="div_17" class="num">
+            <p>17</p>
+        </div>
+        <div id="div_18" class="FIZZ">
+            <p>18=FIZZ</p>
+        </div>
+        <div id="div_19" class="num">
+            <p>19</p>
+        </div>
+        <div id="div_20" class="BUZZ">
+            <p>20=BUZZ</p>
+        </div>
+        <div id="div_21" class="FIZZ">
+            <p>21=FIZZ</p>
+        </div>
+        <div id="div_22" class="num">
+            <p>22</p>
+        </div>
+        <div id="div_23" class="num">
+            <p>23</p>
+        </div>
+        <div id="div_24" class="FIZZ">
+            <p>24=FIZZ</p>
+        </div>
+        <div id="div_25" class="BUZZ">
+            <p>25=BUZZ/p>
+        </div>
+        <div id="div_26" class="num">
+            <p>26</p>
+        </div>
+        <div id="div_27" class="FIZZ">
+            <p>27=FIZZ</p>
+        </div>
+        <div id="div_28" class="num">
+            <p>28</p>
+        </div>
+        <div id="div_29" class="num">
+            <p>29</p>
+        </div>
+        <div id="div_30" class="FIZZBUZZ">
+            <p>30=FIZZBUZZ</p>
+        </div>
+        <div id="div_31" class="num">
+            <p>31</p>
+        </div>
+        <div id="div_32" class="num">
+            <p>32</p>
+        </div>
+        <div id="div_33" class="FIZZ">
+            <p>33=FIZZ</p>
+        </div>
+        <div id="div_34" class="num">
+            <p>34</p>
+        </div>
+        <div id="div_35" class="BUZZ">
+            <p>35=BUZZ</p>
+        </div>
+        <div id="div_36" class="FIZZ">
+            <p>36=FIZZ</p>
+        </div>
+        <div id="div_37" class="num">
+            <p>37</p>
+        </div>
+        <div id="div_38" class="num">
+            <p>38</p>
+        </div>
+        <div id="div_39" class="FIZZ">
+            <p>39=FIZZ</p>
+        </div>
+        <div id="div_40" class="BUZZ">
+            <p>40=BUZZ</p>
+        </div>
+        <div id="div_41" class="num">
+            <p>41</p>
+        </div>
+        <div id="div_42" class="FIZZ">
+            <p>42=FIZZ</p>
+        </div>
+        <div id="div_43" class="num">
+            <p>43</p>
+        </div>
+        <div id="div_44" class="num">
+            <p>44</p>
+        </div>
+        <div id="div_45" class="FIZZBUZZ">
+            <p>45=FIZZBUZZ</p>
+        </div>
+        <div id="div_46" class="num">
+            <p>46</p>
+        </div>
+        <div id="div_47" class="num">
+            <p>47</p>
+        </div>
+        <div id="div_48" class="FIZZ">
+            <p>48=FIZZ</p>
+        </div>
+        <div id="div_49" class="num">
+            <p>49</p>
+        </div>
+        <div id="div_50" class="BUZZ">
+            <p>50=BUZZ</p>
+        </div>
+        <div id="div_51" class="FIZZ">
+            <p>51=FIZZ</p>
+        </div>
+        <div id="div_52" class="num">
+            <p>52</p>
+        </div>
+        <div id="div_53" class="num">
+            <p>53</p>
+        </div>
+        <div id="div_54" class="FIZZ">
+            <p>54=FIZZ</p>
+        </div>
+        <div id="div_55" class="BUZZ">
+            <p>55=BUZZ</p>
+        </div>
+        <div id="div_56" class="num">
+            <p>56</p>
+        </div>
+        <div id="div_57" class="FIZZ">
+            <p>57=FIZZ</p>
+        </div>
+        <div id="div_58" class="num">
+            <p>58</p>
+        </div>
+        <div id="div_59" class="num">
+            <p>59</p>
+        </div>
+        <div id="div_60" class="FIZZBUZZ">
+            <p>60=FIZZBUZZ</p>
+        </div>
+        <div id="div_61" class="num">
+            <p>61</p>
+        </div>
+        <div id="div_62" class="num">
+            <p>62</p>
+        </div>
+        <div id="div_63" class="FIZZ">
+            <p>63=FIZZ</p>
+        </div>
+        <div id="div_64" class="num">
+            <p>64</p>
+        </div>
+        <div id="div_65" class="BUZZ">
+            <p>65=BUZZ</p>
+        </div>
+        <div id="div_66" class="FIZZ">
+            <p>66=FIZZ</p>
+        </div>
+        <div id="div_67" class="num">
+            <p>67</p>
+        </div>
+        <div id="div_68" class="num">
+            <p>68</p>
+        </div>
+        <div id="div_69" class="FIZZ">
+            <p>69=FIZZ</p>
+        </div>
+        <div id="div_70" class="BUZZ">
+            <p>70=BUZZ</p>
+        </div>
+        <div id="div_71" class="num">
+            <p>71</p>
+        </div>
+        <div id="div_72" class="FIZZ">
+            <p>72=FIZZ</p>
+        </div>
+        <div id="div_73" class="num">
+            <p>73</p>
+        </div>
+        <div id="div_74" class="num">
+            <p>74</p>
+        </div>
+        <div id="div_75" class="FIZZBUZZ">
+            <p>75=FIZZBUZZ</p>
+        </div>
+        <div id="div_76" class="num">
+            <p>76</p>
+        </div>
+        <div id="div_77" class="num">
+            <p>77</p>
+        </div>
+        <div id="div_78" class="FIZZ">
+            <p>78=FIZZ</p>
+        </div>
+        <div id="div_79" class="num">
+            <p>79</p>
+        </div>
+        <div id="div_80" class="BUZZ">
+            <p>80=BUZZ</p>
+        </div>
+        <div id="div_81" class="FIZZ">
+            <p>81=FIZZ</p>
+        </div>
+        <div id="div_82" class="num">
+            <p>82</p>
+        </div>
+        <div id="div_83" class="num">
+            <p>83</p>
+        </div>
+        <div id="div_84" class="FIZZ">
+            <p>84=FIZZ</p>
+        </div>
+        <div id="div_85" class="BUZZ">
+            <p>85=BUZZ</p>
+        </div>
+        <div id="div_86" class="num">
+            <p>86</p>
+        </div>
+        <div id="div_87" class="FIZZ">
+            <p>87=FIZZ</p>
+        </div>
+        <div id="div_88" class="num">
+            <p>88</p>
+        </div>
+        <div id="div_89" class="num">
+            <p>89</p>
+        </div>
+        <div id="div_90" class="FIZZBUZZ">
+            <p>90=FIZZBUZZ</p>
+        </div>
+        <div id="div_91" class="num">
+            <p>91</p>
+        </div>
+        <div id="div_92" class="num">
+            <p>92</p>
+        </div>
+        <div id="div_93" class="FIZZ">
+            <p>93=FIZZ</p>
+        </div>
+        <div id="div_94" class="num">
+            <p>94</p>
+        </div>
+        <div id="div_95" class="num">
+            <p>95</p>
+        </div>
+        <div id="div_96" class="FIZZ">
+            <p>96=FIZZ</p>
+        </div>
+        <div id="div_97" class="num">
+            <p>97</p>
+        </div>
+        <div id="div_98" class="num">
+            <p>98</p>
+        </div>
+        <div id="div_99" class="FIZZ">
+            <p>99=FIZZ</p>
+        </div>
+        <div id="div_100" class="BUZZ">
+            <p>100=BUZZ</p>
+        </div>
+    
+    <title>Document</title>
+</body>
+
+</html>
+
+
